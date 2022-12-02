@@ -22,7 +22,7 @@ class CalorieArgs(parser: ArgParser) {
 
 val helpFormatter = DefaultHelpFormatter(
     prologue = "Find the Elf carrying the most Calories. How many total Calories is that Elf carrying?",
-    epilogue = "Day 1 of Advent of Coding 2022"
+    epilogue = "Day 1 of Advent of Code 2022 -- https://adventofcode.com/2022/day/1"
 )
 
 fun main(args: Array<String>) = mainBody(programName = "CalorieCounting") {
