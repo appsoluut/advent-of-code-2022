@@ -5,3 +5,4 @@ Advent of Code 2022
 * Day 2: [Rock, Paper, Scissors](rock-paper-scissors)
 * Day 3: [Rucksack Reorganization](rucksack)
 * Day 4: [Camp Cleanup](camp-cleanup)
+* Day 6: [Tuning Trouble](tuning-trouble)
