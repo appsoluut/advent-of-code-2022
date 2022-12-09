@@ -1,11 +1,11 @@
-package app.appsoluut.rucksack
+package app.appsoluut.supply
 
 import com.xenomachina.argparser.ArgParser
 import com.xenomachina.argparser.DefaultHelpFormatter
 import com.xenomachina.argparser.default
 import com.xenomachina.argparser.mainBody
 
-class RPSArgs(parser: ArgParser) {
+class CCArgs(parser: ArgParser) {
     val verbose by parser.flagging(
         "-v", "--verbose",
         help = "enable verbose mode"
@@ -20,19 +20,19 @@ class RPSArgs(parser: ArgParser) {
     val source by parser.positional(
         "SOURCE",
         help = "source filename"
-    ).default("rucksack.txt")
+    ).default("stacks.txt")
 }
 
 val helpFormatter = DefaultHelpFormatter(
-    prologue = "Find all the duplicates in the rucksack compartments for the elves.",
-    epilogue = "Day 3 of Advent of Code 2022 -- https://adventofcode.com/2022/day/3"
+    prologue = "Supply Stacks.",
+    epilogue = "Day 5 of Advent of Code 2022 -- https://adventofcode.com/2022/day/5"
 )
 
-fun main(args: Array<String>) = mainBody(programName = "Rucksack") {
-    val parsedArgs = ArgParser(args = args, helpFormatter = helpFormatter).parseInto(::RPSArgs)
+fun main(args: Array<String>) = mainBody(programName = "Supply") {
+    val parsedArgs = ArgParser(args = args, helpFormatter = helpFormatter).parseInto(::CCArgs)
 
     parsedArgs.run {
-        Organizer(
+        Stacks(
             verbose = verbose,
             source = source,
         ).run {
