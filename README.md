@@ -6,3 +6,5 @@ Advent of Code 2022
 * Day 3: [Rucksack Reorganization](rucksack)
 * Day 4: [Camp Cleanup](camp-cleanup)
 * Day 5: [Supply Stacks](supply-stacks)
+* Day 6: [Tuning Trouble](tuning-trouble)
+* Day 8: [Treetop Tree House](treetop-tree-house)
