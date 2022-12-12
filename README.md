@@ -9,3 +9,4 @@ Advent of Code 2022
 * Day 6: [Tuning Trouble](tuning-trouble)
 * Day 8: [Treetop Tree House](treetop-tree-house)
 * Day 9: [Rope Bridge](rope-bridge)
+* Day 10: [Cathode-Ray Tube](cathode-ray-tube)
