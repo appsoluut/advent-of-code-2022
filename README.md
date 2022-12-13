@@ -10,3 +10,4 @@ Advent of Code 2022
 * Day 8: [Treetop Tree House](treetop-tree-house)
 * Day 9: [Rope Bridge](rope-bridge)
 * Day 10: [Cathode-Ray Tube](cathode-ray-tube)
+* Day 11: [Monkey in the Middle](monkey-in-the-middle)
